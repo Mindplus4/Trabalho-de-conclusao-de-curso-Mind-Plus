@@ -1,0 +1,148 @@
+
+ 
+ @media only screen and (max-device-width: 900px) {
+    .conteiner_header { width:600px; } 
+   }
+
+
+.conteiner {
+background-color: #FF914D;
+padding: 10px;
+text-align: center;
+margin-bottom: 50px; /* Espaço para o rodapé */
+}
+.conteiner img {
+   width: 45%;
+   height: auto;
+justify-content: center;
+
+}
+
+
+.carrossel {
+display: flex;
+justify-content: center;
+gap: 30px;
+overflow-x: auto;
+scroll-snap-type: x mandatory;
+}
+
+.carrossel img {
+width: 300px;
+height: 150px;
+object-fit: cover;
+border-radius: 10px;
+scroll-snap-align: start;
+}
+
+.informacao {
+background-color: bisque;
+padding: 20px;
+border-radius: 20px;
+max-width: 1000px;
+margin: 0 auto;
+margin-bottom: 20px; /* Espaço entre o conteúdo e o rodapé */
+}
+
+.informacao p {
+font-size: 19px;
+line-height: 1.6;
+}
+
+.conteiner_header {
+background-color: #FAFAD2;
+padding: 10px 20px;
+position: fixed;
+bottom: 0;
+width: 100%;
+border-top: 1px solid black; /* Adiciona borda preta no topo */
+border-radius: 10px;
+box-shadow: 0px 3px 10px #FF914D;
+}
+.visao h3{
+   background-color: #e9a57b;
+   border-radius: 5px;
+   align-items: center;
+   padding: 10px;
+   text-align: center;
+   width: 350px;
+
+
+}
+.visao p{
+   background-color: beige;
+   border-radius: 1px;
+   align-items: center;
+   padding: 4px;
+   width: 350px;
+   height: 185px;
+   
+
+}
+.missao h3{
+   background-color: #e9a57b;
+   border-radius: 5px;
+   align-items: center;
+   padding: 10px;
+   text-align: center;
+   width: 350px;
+
+
+}
+.missao p{
+   background-color: beige;
+   border-radius: 1px;
+   align-items: center;
+   padding: 4px;
+   width: 350px;
+   
+
+}
+.infor-sobre{
+   display: flex;
+   justify-content: space-between; /* Ajusta o espaço entre os containers */
+   gap: 05px; /* Espaço entre os containers, ajuste conforme necessário */
+   padding: 1rem;
+   flex-wrap: wrap; 
+}
+.valores h3{
+   background-color: #e9a57b;
+   border-radius: 5px;
+   align-items: center;
+   padding: 10px;
+   text-align: center;
+   width: 350px;
+
+
+}
+.valores p{
+   background-color: beige;
+   border-radius: 1px;
+   align-items: center;
+   padding: 4px;
+   width: 350px;
+   
+
+}
+.informacao h3 p{
+   background-color: beige;
+   display: flex;
+   align-items: center;
+   margin: 0px;
+    align-items: center;
+   justify-content: center;
+   margin:  auto;
+   padding: 10px;
+   border-radius: 20px;
+ 
+   
+   
+   
+
+}
+
+fieldset{
+   background-image: linear-gradient( #f49457,rgb(53, 51, 51));
+   width: 500px;
+   padding: 3px;
+}
